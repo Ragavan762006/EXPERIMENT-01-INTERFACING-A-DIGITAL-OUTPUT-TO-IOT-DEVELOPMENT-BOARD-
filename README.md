@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 14/03/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: Ragavan E
+###  ROLL NO :212223040160
+###  DEPARTMENT: Computer Science and Engineering
 
 
 
@@ -86,13 +86,29 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```
+#include "main.h"
+#include "stdio.h"
+while (1)
+{
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(1000);
+}
 
+```
 
 
 
 
 ## OUTPUT  :
- 
+# LED OFF MODE
+![exp1](https://github.com/user-attachments/assets/2f96ddb1-6ff1-4752-9d5e-172793fc0b22)
+
+# LED ON MODE
+![exp1-1](https://github.com/user-attachments/assets/34cc3727-c2eb-4494-83fb-6aeaadbe062e)
+
  
  
  
